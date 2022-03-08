@@ -5,5 +5,5 @@ function showResult() {
     if (T == "VietNam" && U == "USD") {
         G=G/23000;
     }
-    document.getElementById('4').innerText = "Result: " + G;
+    document.getElementById('4').innerHTML = "Result: " + G;
 }
